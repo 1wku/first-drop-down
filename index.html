@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <Link  rel = "stylesheet"  href = "//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" >
+    <title>Drop Down</title>
+</head>
+<body>
+    <div class="dropdown">
+        <div class="dropdown__select">
+            <span class="dropdown__selected">Call to action</span>
+            <i class="fa fa-caret-down dropdown_caret"></i>
+        </div>
+        <div class="dropdown__list">
+            <li class="dropdown__item">
+                <span class="dropdown__text">New project</span>
+                <i class="fa fa-plus-circle dropdown_icon"></i>
+            </li>
+            <li class="dropdown__item">
+                <span class="dropdown__text">View profile</span>
+                <i class="fa fa-user dropdown_icon"></i>
+            </li>
+            <li class="dropdown__item">
+                <span class="dropdown__text">Settings</span>
+                <i class="fa fa-cog dropdown_icon"></i>
+            </li>
+            <li class="dropdown__item">
+                <span class="dropdown__text">logout</span>
+                <i class="fa fa-power-off dropdown_icon"></i>
+            </li>
+        </div>
+    </div>
+</body>
+</html>
+<!-- 
+   Phân tích cấu trúc:
+   phần trên là dropdown__select:
+        tựa đề bên trong là dropdown__selected
+        phần icon là dropdown__select-caret
+   phần danh sách bên dưới là dropdown__list:
+        phần tử là dropdown__item
+            phần chữ là dropdown__text
+            phần icon là dropdown__icon
+        phần tam giác là before của dropdown__list
+ -->
